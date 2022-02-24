@@ -1,1 +1,1 @@
-# Perceptr-nSimpleCompuertaOR
+# PerceptronSimpleCompuertaOR
