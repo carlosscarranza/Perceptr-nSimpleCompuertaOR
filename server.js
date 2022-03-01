@@ -30,7 +30,7 @@ app.post('/calculate', async function (req, res) {
     })
 })
 
-app.get('/validate', function (req, res) {
+app.post('/validate', function (req, res) {
 
     let number =  Math.tanh( ((req.body.x1 * req.body.weight1) + (req.body.x2 * req.body.weight2))   - (req.body.error))
     res.send({number});
