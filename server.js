@@ -14,7 +14,7 @@ var gweight1 = 0;
 var gweight2 = 0;
 var gerror = 0;
 
-app.get('/calculate', async function (req, res) {
+app.post('/calculate', async function (req, res) {
     counter = 0;
     gweight1 = req.body.weight1;
     gweight2 = req.body.weight2;
